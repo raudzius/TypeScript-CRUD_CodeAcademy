@@ -1,5 +1,4 @@
-type Brand = {
-
-};
-
-export default Brand;
+export default interface Brand {
+    id: string;
+    title: string;
+}

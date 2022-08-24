@@ -1,5 +1,6 @@
-type Car = {
-
-};
-
-export default Car;
+export default interface Car {
+    id: string;
+    price: number;
+    year: number;
+    modelId: string;
+}

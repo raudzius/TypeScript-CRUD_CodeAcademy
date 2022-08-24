@@ -35,5 +35,5 @@ const models = [{
     title: 'Ascent',
     brandId: '3',
   }];
-  
+
   export default models;

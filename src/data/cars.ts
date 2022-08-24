@@ -150,5 +150,5 @@ const cars = [
       modelId: '2',
     },
   ];
-  
+
   export default cars;

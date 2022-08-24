@@ -1,5 +1,5 @@
-type Model = {
- 
-};
-
-export default Model;
+export default interface Model {
+    id: string;
+    title: string;
+    brandId: string;
+}
