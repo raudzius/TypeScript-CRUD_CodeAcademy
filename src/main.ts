@@ -1,4 +1,4 @@
-// import App from './components/app';
+import App from './components/app';
 import CarsCollection from './helpers/cars-collection';
 import brands from './data/brand';
 import cars from './data/cars';
@@ -20,3 +20,5 @@ carsCollection.all.forEach((car) => {
     });
     tbody.append(tr);
 });
+
+console.log(App);
